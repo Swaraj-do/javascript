@@ -44,3 +44,28 @@ console.log(typeof outsideTemp);
 // Boolean => boolean
 // Number => number
 // String => string
+
+
+// +++++++++++++++++++++++++++++
+
+// memory 2 types
+// Stack (primitive), Heap (non-primitive)
+
+let myGoodname = "swaraj"
+let anothername = myGoodname
+anothername = "sj"
+console.log(myGoodname)
+console.log(anothername);
+
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo =  userOne
+
+userTwo.email = "user2@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
